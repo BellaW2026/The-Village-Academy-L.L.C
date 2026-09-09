@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enrollment &amp; Tuition | The Village Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="nav-brand" aria-label="The Village Academy home">
+      <span class="badge">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+          <circle class="badge-ring" cx="50" cy="50" r="38" stroke-width="1.4" opacity="0.5"/>
+          <text x="50" y="47" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="22" fill="currentColor">VA</text>
+          <text x="50" y="66" text-anchor="middle" font-family="Zilla Slab, serif" font-weight="700" font-size="7.5" letter-spacing="1.5" fill="currentColor">EST. MARICOPA</text>
+        </svg>
+      </span>
+      <span class="word">The Village Academy<span>Private Hybrid Microschool</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav.links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="links">
+      <a class="nl" href="index.html#model">Our Model</a>
+      <a class="nl" href="index.html#philosophy">Philosophy</a>
+      <a class="nl" href="index.html#founder">Meet Bella</a>
+      <a class="nl active" href="enrollment.html">Enrollment &amp; FAQ</a>
+      <a href="apply.html" class="btn btn-primary btn-sm desktop-only">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ PAGE HEADER ============ -->
+<section class="page-header">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Enrollment &amp; FAQ</div>
+    <span class="eyebrow">Enrollment &amp; Tuition</span>
+    <h1>Everything to know before you apply.</h1>
+    <p class="lead">Program tiers, hybrid scheduling, payment options, and answers to the questions families ask most before enrolling at The Village Academy.</p>
+  </div>
+</section>
+
+<main>
+
+  <!-- ============ PROGRAMS / PRICING ============ -->
+  <section class="section" id="programs">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Program Tiers</span>
+        <h2>Two age bands, plus support beyond the classroom.</h2>
+        <p>Every enrolled tier includes an individualized instruction plan and your choice of in-person, virtual, or a hybrid mix of both. Already homeschooling on your own? Our curriculum-building service meets you where you are.</p>
+      </div>
+      <div class="programs">
+        <div class="program-card featured reveal">
+          <div class="program-top">
+            <span class="grades">Grades 1&ndash;2</span>
+            <h3>Lower Primary</h3>
+          </div>
+          <div class="program-body">
+            <ul>
+              <li>Foundational literacy &amp; math instruction</li>
+              <li>Individualized pacing plan, reviewed each quarter</li>
+              <li>Thinking Maps &amp; hands-on learning materials</li>
+              <li>Weekly progress notes for families</li>
+            </ul>
+            <div class="program-price">$8,500<span>per year &middot; in-person, virtual, or hybrid</span></div>
+          </div>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-top">
+            <span class="grades">Grades 3&ndash;4</span>
+            <h3>Upper Primary</h3>
+          </div>
+          <div class="program-body">
+            <ul>
+              <li>Full-subject instruction, standards-aligned</li>
+              <li>Individualized pacing plan, reviewed each quarter</li>
+              <li>Early study-skills &amp; independence coaching</li>
+              <li>Portfolio-based progress tracking</li>
+            </ul>
+            <div class="program-price">$8,000<span>per year &middot; in-person, virtual, or hybrid</span></div>
+          </div>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-top">
+            <span class="grades">All Grades 1&ndash;4</span>
+            <h3>Sibling &amp; Add-On Sessions</h3>
+          </div>
+          <div class="program-body">
+            <ul>
+              <li>Sibling discount on tuition</li>
+              <li>Optional Saturday enrichment sessions</li>
+              <li>Flexible scheduling around family needs</li>
+            </ul>
+            <div class="program-price">Custom quote<span>Built at your admissions consult</span></div>
+          </div>
+        </div>
+        <div class="program-card wide reveal">
+          <div class="program-top">
+            <span class="grades">Homeschool Families</span>
+            <h3>Curriculum Building</h3>
+          </div>
+          <div class="program-body">
+            <ul>
+              <li>A custom curriculum plan built around your child, by a certified Arizona teacher</li>
+              <li>Delivered and organized through Google Classroom</li>
+              <li>Materials, assignments, and pacing updated as your child progresses</li>
+              <li>You lead the day-to-day teaching; we build the plan behind it</li>
+            </ul>
+            <div class="price-tiers">
+              <div class="price-tier">
+                <span class="tier-label">Quarterly (ESA)</span>
+                <span class="tier-amount">$850<small>/quarter</small></span>
+              </div>
+              <div class="price-tier">
+                <span class="tier-label">Monthly (Private Pay)</span>
+                <span class="tier-amount">$340<small>/month</small></span>
+                <span class="tier-note">10-month cycle</span>
+              </div>
+              <div class="price-tier featured-tier">
+                <span class="tier-label">Annual (Prepaid)</span>
+                <span class="tier-amount">$3,060<small>/year</small></span>
+                <span class="tier-note">Save $340</span>
+              </div>
+            </div>
+            <p class="support-note"><strong>On-demand support</strong> is included with every tier: asynchronous messaging by email or text, with a 4&ndash;6 hour response time. This is not 24/7 live-call support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAYMENT OPTIONS (steps) ============ -->
+  <section class="section band-teal" id="payment">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Payment Options</span>
+        <h2>Private pay, or funded through Arizona's ESA program.</h2>
+        <p>Families may pay tuition directly, or use an Arizona Empowerment Scholarship Account (ESA) through ClassWallet.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="num">1</div>
+          <div><h4>Confirm your payment method</h4><p>Let us know whether you'll be paying privately or using an Empowerment Scholarship Account (ESA), and we'll walk you through what's needed.</p></div>
+        </div>
+        <div class="step reveal">
+          <div class="num">2</div>
+          <div><h4>Complete your application</h4><p>Submit your admissions application and choose your child's track: in-person, virtual, or hybrid.</p></div>
+        </div>
+        <div class="step reveal">
+          <div class="num">3</div>
+          <div><h4>We invoice, you approve</h4><p>ESA families receive itemized, ClassWallet-ready invoices on a predictable schedule. Private-pay families are billed directly.</p></div>
+        </div>
+        <div class="step reveal">
+          <div class="num">4</div>
+          <div><h4>Track progress together</h4><p>Regular check-ins keep you in the loop on your child's individualized plan and what's next.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Frequently Asked Questions</span>
+        <h2>What families ask before enrolling.</h2>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            What is a hybrid microschool?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">A hybrid microschool combines the small, community-centered feel of a microschool with flexible attendance options. Students can attend fully in person, complete their coursework independently through our virtual track, or split their week between the two &mdash; all while following the same individualized instruction plan.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            What grades do you serve?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">The Village Academy currently serves students in grades 1 through 4, organized into two tiers: Lower Primary (grades 1&ndash;2) and Upper Primary (grades 3&ndash;4).</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            What's the difference between the in-person and virtual tracks?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">In-person students attend school on campus in Maricopa Monday through Thursday, 8:30 AM to 3:00 PM, in a small, mixed-age cohort. Virtual students follow the same individualized plan and materials, but complete their work independently on their own schedule, with regular check-ins from their teacher rather than live, real-time class sessions. Families can mix the two into a hybrid schedule.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            What are the in-person school days and hours?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">On-campus students attend Monday through Thursday, 8:30 AM to 3:00 PM. There is no on-campus instruction on Fridays.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            Do you accept ESA funding?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">Yes. Families may use an Arizona Empowerment Scholarship Account (ESA) through ClassWallet, or pay tuition privately. We provide itemized, ClassWallet-ready invoices on a predictable schedule for ESA families.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            What does an "individualized instruction plan" actually mean?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">Every student's plan is mapped to their own pace and needs rather than a single grade-level curriculum. That includes custom curriculum mapping, quarterly plan reviews, and instruction that adjusts as your child grows &mdash; whether they're ahead, on pace, or need more support in a specific area.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            How do I enroll my child?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">Start with our <a href="apply.html" style="color:var(--teal-dark); font-weight:700;">Admissions application</a>. We'll follow up to talk through your child's needs, walk through tuition and payment options, and help you choose the right track.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            Can siblings enroll together?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">Yes, and sibling households receive a discount on tuition. Siblings can be enrolled in the same or different tracks depending on each child's needs.</div></div>
+        </div>
+
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            I already homeschool my child &mdash; can you just help with curriculum?
+            <span class="chev"></span>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">Yes. Our Curriculum Building service is designed for families who want to continue homeschooling independently but would like a certified teacher to build the plan. We create an individualized curriculum &mdash; assignments, materials, and pacing &mdash; organized for you inside Google Classroom, and update it as your child progresses. You lead the day-to-day teaching; we build the roadmap behind it.</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="cta-banner reveal">
+        <span class="eyebrow" style="color:var(--gold-soft);">Ready When You Are</span>
+        <h2 style="margin-top:14px;">Let's find the right track for your child.</h2>
+        <p>Start your admissions application and we'll help you choose between in-person, virtual, or a hybrid schedule.</p>
+        <div class="btns">
+          <a href="apply.html" class="btn btn-primary">Apply Now</a>
+          <a href="index.html" class="btn btn-outline">Back to Home</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <div class="brand">
+        <span class="badge">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+            <text x="50" y="60" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="26" fill="currentColor">VA</text>
+          </svg>
+        </span>
+        <p>&copy; 2026 The Village Academy &middot; A Private Hybrid Microschool &middot; Maricopa, Arizona</p>
+      </div>
+      <div class="foot-links">
+        <a href="index.html#model">Our Model</a>
+        <a href="index.html#philosophy">Philosophy</a>
+        <a href="enrollment.html">Enrollment</a>
+        <a href="apply.html">Apply</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  document.querySelectorAll('nav.links a').forEach(a=>{
+    a.addEventListener('click', ()=> document.querySelector('nav.links').classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>

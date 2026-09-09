@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Village Academy | Private Hybrid Microschool | Maricopa, Arizona</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="nav-brand" aria-label="The Village Academy home">
+      <span class="badge">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+          <circle class="badge-ring" cx="50" cy="50" r="38" stroke-width="1.4" opacity="0.5"/>
+          <text x="50" y="47" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="22" fill="currentColor">VA</text>
+          <text x="50" y="66" text-anchor="middle" font-family="Zilla Slab, serif" font-weight="700" font-size="7.5" letter-spacing="1.5" fill="currentColor">EST. MARICOPA</text>
+        </svg>
+      </span>
+      <span class="word">The Village Academy<span>Private Hybrid Microschool</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav.links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="links">
+      <a class="nl active" href="index.html#model">Our Model</a>
+      <a class="nl" href="index.html#philosophy">Philosophy</a>
+      <a class="nl" href="index.html#founder">Meet Bella</a>
+      <a class="nl" href="enrollment.html">Enrollment &amp; FAQ</a>
+      <a href="apply.html" class="btn btn-primary btn-sm desktop-only">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Private School &middot; Maricopa, Arizona</span>
+        <h1>A private microschool with a plan built around <em>your child</em>.</h1>
+        <p class="lead">The Village Academy is a private hybrid microschool serving grades 1&ndash;4, blending in-person and virtual learning with individualized, relationship-driven instruction &mdash; not a one-size-fits-all classroom.</p>
+        <div class="hero-ctas">
+          <a href="apply.html" class="btn btn-primary">Apply Now</a>
+          <a href="enrollment.html" class="btn btn-outline">View Enrollment &amp; Tuition</a>
+        </div>
+        <div class="hero-stats">
+          <div><span class="n">1&ndash;4</span><span class="l">Grades Served</span></div>
+          <div><span class="n">Hybrid</span><span class="l">In-Person + Virtual</span></div>
+          <div><span class="n">1:1</span><span class="l">Individualized Plans</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <span class="badge">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+            <circle class="badge-ring" cx="50" cy="50" r="38" stroke-width="1.4" opacity="0.5"/>
+            <text x="50" y="47" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="22" fill="currentColor">VA</text>
+            <text x="50" y="66" text-anchor="middle" font-family="Zilla Slab, serif" font-weight="700" font-size="7.5" letter-spacing="1.5" fill="currentColor">EST. MARICOPA</text>
+          </svg>
+        </span>
+        <h3>What every family gets</h3>
+        <p>A learning plan built around your child, delivered however your family needs it.</p>
+        <ul>
+          <li><span class="dot"></span>An individualized instruction plan for every student</li>
+          <li><span class="dot"></span>Choice of in-person, virtual, or a hybrid mix of both</li>
+          <li><span class="dot"></span>A certified Arizona teacher leading every classroom</li>
+          <li><span class="dot"></span>Small, mixed-age cohorts instead of large classrooms</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR MODEL (hybrid tracks) ============ -->
+  <section class="section band-paper" id="model">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Model</span>
+        <h2>One private school, two ways to attend.</h2>
+        <p>Families choose the track that fits their week &mdash; and can move between them as needs change throughout the year.</p>
+      </div>
+      <div class="tracks">
+        <div class="track inperson reveal">
+          <span class="tag">In-Person</span>
+          <h3>On-Campus Microschool</h3>
+          <p>Small, mixed-age cohorts meet in person at our Maricopa location for full-day instruction, hands-on projects, and community-centered learning.</p>
+          <ul>
+            <li>Monday&ndash;Thursday, 8:30 AM&ndash;3:00 PM</li>
+            <li>Individualized pacing within a small cohort</li>
+            <li>Hands-on projects and peer collaboration</li>
+          </ul>
+        </div>
+        <div class="track virtual reveal">
+          <span class="tag">Virtual</span>
+          <h3>Independent Virtual Track</h3>
+          <p>Students work through the same individualized plan as our in-person students, on their own schedule, with materials and check-ins from their teacher &mdash; not live, real-time class sessions.</p>
+          <ul>
+            <li>Self-paced learning on your family's own schedule</li>
+            <li>Same individualized curriculum plan as on-campus students</li>
+            <li>Regular check-ins with a certified teacher to review progress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PHILOSOPHY ============ -->
+  <section class="section" id="philosophy">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Philosophy</span>
+        <h2>Education rooted in advocacy, not one-size-fits-all.</h2>
+        <p>The Village Academy was founded on the belief that every student deserves a learning environment shaped around who they are. That means an individualized instruction plan for every child, inclusive leadership, and a community built on real relationships.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar reveal">
+          <div class="mark">01</div>
+          <h3>Individualized Instruction</h3>
+          <p>Every student learns on their own plan &mdash; paced, sequenced, and adjusted around how they actually learn best.</p>
+        </div>
+        <div class="pillar reveal">
+          <div class="mark">02</div>
+          <h3>Inclusive Leadership</h3>
+          <p>Learners of every pace and background are met where they are, with instruction that flexes instead of a child who has to.</p>
+        </div>
+        <div class="pillar reveal">
+          <div class="mark">03</div>
+          <h3>Relationship-Driven Schooling</h3>
+          <p>Consistency and trust come first. The same teacher, the same rhythm, the same community &mdash; week after week.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER ============ -->
+  <section class="section band-paper" id="founder">
+    <div class="wrap">
+      <div class="founder reveal">
+        <!-- To add your real photo: place an image file named "bella-photo.jpg" in an "images" folder
+             next to index.html (so the path is images/bella-photo.jpg). It will automatically replace
+             this placeholder badge once the file exists \u2014 no other changes needed. -->
+        <div class="founder-portrait">
+          <img src="images/bella-photo.jpg" alt="Bella Washington, Founder and Head of School" class="founder-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="badge" style="display:none;">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+              <circle class="badge-ring" cx="50" cy="50" r="38" stroke-width="1.4" opacity="0.5"/>
+              <text x="50" y="47" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="22" fill="currentColor">BW</text>
+              <text x="50" y="66" text-anchor="middle" font-family="Zilla Slab, serif" font-weight="700" font-size="7" letter-spacing="1.2" fill="currentColor">FOUNDER</text>
+            </svg>
+          </span>
+        </div>
+        <div>
+          <span class="role">Founder &amp; Head of School</span>
+          <h3>Bella Washington</h3>
+          <p>Bella founded The Village Academy to give Maricopa families a private school alternative built on trust and individualized instruction. She's an Arizona Certified Teacher with a Bachelor of Education in Elementary Education from Arizona State University, graduating Summa Cum Laude.</p>
+          <p>Before launching the Academy, Bella served as Head of School and Lead Teacher at a Maricopa microschool and taught in Maricopa Unified School District #20, where she received a District Spotlight Recognition for her work with students.</p>
+          <div class="founder-creds">
+            <div>AZ Certified Teacher<span>Certificate on file</span></div>
+            <div>B.Ed., ASU<span>Summa Cum Laude, 2025</span></div>
+            <div>MUSD20<span>District Spotlight, 2025</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ENROLLMENT TEASER ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="cta-banner reveal">
+        <span class="eyebrow" style="color:var(--gold-soft);">Enrollment</span>
+        <h2 style="margin-top:14px;">Ready to see tuition, schedules, and answers to common questions?</h2>
+        <p>Our Enrollment page walks through program tiers, hybrid scheduling options, and everything families ask before applying.</p>
+        <div class="btns">
+          <a href="enrollment.html" class="btn btn-primary">View Enrollment &amp; Tuition</a>
+          <a href="apply.html" class="btn btn-outline">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIAL PLACEHOLDER ============ -->
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="testimonial-shell reveal">
+        <span class="badge">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+            <text x="50" y="60" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="34" fill="currentColor">&rdquo;</text>
+          </svg>
+        </span>
+        <h3>Family stories, coming soon</h3>
+        <p>This is a placeholder for a family testimonial &mdash; swap this section for a real quote once your first few families are ready to share their experience.</p>
+        <a href="index.html#contact" class="btn btn-outline btn-sm">Be one of our first families</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact" style="padding-top:0;">
+    <div class="wrap">
+      <div class="contact reveal">
+        <div>
+          <span class="eyebrow" style="color:var(--gold-soft);">Get In Touch</span>
+          <h2>Schedule a tour of The Village Academy.</h2>
+          <p>Come see the microschool in person, or ask us anything about the hybrid model, tuition, or enrollment &mdash; no pressure, no obligation.</p>
+          <div class="contact-info">
+            <div class="row"><span class="k">Location</span><span class="v">Maricopa, Arizona</span></div>
+            <div class="row"><span class="k">Email</span><span class="v">Bella.thevillageacademy@gmail.com</span></div>
+            <div class="row"><span class="k">Phone</span><span class="v">(602) 434-3797</span></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xbgrnpwk" method="POST">
+          <input type="hidden" name="_subject" value="New Tour Request \u2014 The Village Academy">
+          <label for="pname">Parent / Guardian Name</label>
+          <input id="pname" name="name" type="text" placeholder="Your name" required>
+          <label for="pemail">Email Address</label>
+          <input id="pemail" name="email" type="email" placeholder="you@email.com" required>
+          <label for="cgrade">Student Grade</label>
+          <select id="cgrade" name="grade">
+            <option>Grade 1</option><option>Grade 2</option><option>Grade 3</option><option>Grade 4</option>
+          </select>
+          <label for="ctrack">Preferred Track</label>
+          <select id="ctrack" name="track">
+            <option>In-Person</option><option>Virtual</option><option>Not sure yet</option>
+          </select>
+          <label for="cmsg">Anything else we should know?</label>
+          <textarea id="cmsg" name="message" placeholder="Tell us a bit about your child..."></textarea>
+          <button type="submit" class="btn btn-primary">Request a Tour</button>
+          <div class="form-status" id="contact-status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <div class="brand">
+        <span class="badge">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle class="badge-ring" cx="50" cy="50" r="46" stroke-width="3"/>
+            <text x="50" y="60" text-anchor="middle" font-family="Fraunces, serif" font-weight="600" font-size="26" fill="currentColor">VA</text>
+          </svg>
+        </span>
+        <p>&copy; 2026 The Village Academy &middot; A Private Hybrid Microschool &middot; Maricopa, Arizona</p>
+      </div>
+      <div class="foot-links">
+        <a href="index.html#model">Our Model</a>
+        <a href="index.html#philosophy">Philosophy</a>
+        <a href="enrollment.html">Enrollment</a>
+        <a href="apply.html">Apply</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  document.querySelectorAll('nav.links a').forEach(a=>{
+    a.addEventListener('click', ()=> document.querySelector('nav.links').classList.remove('open'));
+  });
+
+  const contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function(e){
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('.btn-primary');
+      const status = document.getElementById('contact-status');
+      const originalText = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+      status.textContent = '';
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          btn.textContent = 'Request Sent \u2713';
+          status.textContent = "Thanks! We'll be in touch soon.";
+          form.reset();
+        } else {
+          throw new Error('submit failed');
+        }
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = originalText;
+        status.textContent = 'Something went wrong \u2014 please try again or email us directly.';
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
